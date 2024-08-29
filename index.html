@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Livros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">Loja de Livros</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#livros">Livros</a></li>
+                <li class="dropdown">
+                    <a href="#">Categorias</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#filmes">Filmes</a></li>
+                        <li><a href="#sagas">Sagas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <!-- Carrossel de Livros -->
+    <section id="home" class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-images">
+                <img src="livro1.jpg" alt="Livro 1">
+                <img src="livro2.jpg" alt="Livro 2">
+                <img src="livro3.jpg" alt="Livro 3">
+                <img src="livro4.jpg" alt="Livro 4">
+                <img src="livro5.jpg" alt="Livro 5">
+                <img src="livro6.jpg" alt="Livro 6">
+                <img src="livro7.jpg" alt="Livro 7">
+                <img src="livro8.jpg" alt="Livro 8">
+            </div>
+            <div class="carousel-text">
+                <h2>Filmes e Sagas</h2>
+                <p>Explore nossas seções de filmes e sagas para encontrar suas próximas leituras favoritas!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 Criado por [Seu Nome]. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Seta para voltar ao topo -->
+    <a href="#top" class="scroll-to-top">&#9650;</a>
+
+    <script>
+        function toggleMenu() {
+            var navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
