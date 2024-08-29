@@ -1,14 +1,13 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f0f8ff; /* Azul claro */
+    background-color: #f0f8ff; 
 }
 
 header {
-    background-color: #003366; /* Azul escuro */
+    background-color: #003366; 
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -50,7 +49,7 @@ header {
 .dropdown-menu {
     display: none;
     position: absolute;
-    background-color: #004080; /* Azul médio */
+    background-color: #004080; 
     list-style: none;
     margin: 0;
     padding: 0;
@@ -79,7 +78,7 @@ header {
 
 .carousel {
     padding: 20px;
-    background-color: #b0e0e6; /* Azul pálido */
+    background-color: #b0e0e6; 
 }
 
 .carousel-container {
@@ -109,7 +108,7 @@ header {
 }
 
 footer {
-    background-color: #003366; /* Azul escuro */
+    background-color: #003366; 
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -122,7 +121,7 @@ footer {
     position: fixed;
     right: 20px;
     bottom: 20px;
-    background-color: #004080; /* Azul médio */
+    background-color: #004080; 
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -131,7 +130,7 @@ footer {
 }
 
 .scroll-to-top:hover {
-    background-color: #003366; /* Azul escuro */
+    background-color: #003366; 
 }
 
 @media screen and (max-width: 768px) {
