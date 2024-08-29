@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros de Magia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">Loja de Livros</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Todos</a></li>
+                <li><a href="cachorros.html">Cachorros</a></li>
+                <li><a href="magia.html">Magia</a></li>
+                <li><a href="sagas.html">Sagas</a></li>
+                <li class="dropdown">
+                    <a href="#">Categorias</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">Todos</a></li>
+                        <li><a href="cachorros.html">Cachorros</a></li>
+                        <li><a href="magia.html">Magia</a></li>
+                        <li><a href="sagas.html">Sagas</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <!-- Carrossel de Livros de Magia -->
+    <section class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-images">
+                <img src="magia1.jpg" alt="Livro de Magia 1">
+                <img src="magia2.jpg" alt="Livro de Magia 2">
+                <img src="magia3.jpg" alt="Livro de Magia 3">
+                <img src="magia4.jpg" alt="Livro de Magia 4">
+            </div>
+            <div class="carousel-text">
+                <h2>Livros de Magia</h2>
+                <p>Explore nossa seleção de livros que mergulham em mundos mágicos e encantadores.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 Criado por Seu Nome. Email: seuemail@example.com</p>
+    </footer>
+
+    <!-- Seta para voltar ao topo -->
+    <a href="#top" class="scroll-to-top">&#9650;</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
