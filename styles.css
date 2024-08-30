@@ -104,14 +104,14 @@ header {
 
 .carousel-text {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 footer {
     background-color: #003366; 
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
